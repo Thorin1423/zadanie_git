@@ -5,8 +5,13 @@ int main(){
 	
 	int n;
 	cin>>n;
-	cout<<n<<endl;
 	
+	if(n<0){
+		cout<<"Liczba jest ujemna"<<endl;
+	return 0; 
+	}
+	
+	cout<<n<<endl;
 	return 0;
 }
 	
